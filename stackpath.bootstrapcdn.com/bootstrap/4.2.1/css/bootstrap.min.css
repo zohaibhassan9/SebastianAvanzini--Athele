@@ -1,0 +1,30 @@
+/*
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/* Import Montserrat Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --font-family-base: 'Montserrat', sans-serif;
+}
+
+/* Global Reset */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* Apply Montserrat Font Globally */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 520; /* Bold text */
+    line-height: 1.5; /* Adjust line height globally */
+  }
+
+
+/* Add any additional Bootstrap styling below */
